@@ -34,6 +34,7 @@
                     <div class="register">
                         <p>Don't have an account? <asp:HyperLink ID="lnkSignUp" runat="server" NavigateUrl="~/SignUp.aspx">Sign Up</asp:HyperLink></p>
                     </div>
+                            <asp:ModelErrorMessage runat="server" />
 
 </form>
             </div>
